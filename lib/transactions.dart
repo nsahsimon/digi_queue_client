@@ -42,10 +42,7 @@ class Transactions {
   String password;
   String webHookKey;
   String appId;
-  // String username = 'T04imI7TG8ggtlg48ZccS-rbUtRoPLVP_OajwTILQ0sfF4IUauJPqNOWP4jzF_uO_kIrFw-TE7Ti06RV_uep2A';
-  // String password = 'm-DJcDCI3lne03D4gd_sFZnagDoWeLJKyv-zZtLz5Bmz3Ox9NDKsUEhQqFG_HXqPUx0nJH2jr3L9GN2NqiuOSw';
-  // String appId = 'rOy0PhQI4qVwtOy6y1RC1En-jKt66j7T0_juJROXJfBGM6eu-ZUvJsW8CewAKS3XmxKyL2vfvZZpZNHXpV_BRA';
-  // String webHookKey = 'PnieKYDzvPUUb6R4CGJV2On0rQNc2F4mtmIEQgOOoYBFWS1gAOLfQLjfZze8f5AyJn58dqG5fgPO0GsNvyfzZg';
+  
   String getAccessTokenUrl = 'https://www.campay.net/api/token/';
   String requestPaymentUrl = 'https://www.campay.net/api/collect/';
   String withdrawalUrl = 'https://www.campay.net/api/withdraw/';
